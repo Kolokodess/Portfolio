@@ -1,0 +1,257 @@
+li {
+	display: inline;
+	padding: 20px
+}
+
+/*.navbar.navbar-fixed-top {
+			background: transparent;
+	}*/
+.navbar {
+	background-color: #e6005c;
+	height: 70px;
+}
+.bg-image{
+	background-image: url(../images/mydp6.jpg);
+	background-size:cover;
+	background-position: center;
+	height: 400px;
+}
+
+.header {
+	height:300px;
+}
+
+.navbar-toggle{
+	background-color: #ff0040 !important;
+}
+
+.logo img{
+	width: 60px;
+	height: 60px;
+}
+
+.navbar-nav>li>a:hover {
+	background-color: transparent; !important;
+	color: #4f4f4f !important;
+}
+
+.navbar-link1{
+	padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 30px !important;
+    border-radius: 57px !important;
+    color: white !important;
+ }
+
+.navbar-link2{
+	padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    border-radius: 57px !important;
+    color: white !important;
+ }
+
+.navbar-link3{
+	padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-right: 10px !important;
+    padding-left: 0px !important;
+    border-radius: 57px !important;
+    color: white !important;
+ }
+
+ 
+.menu {
+	margin-bottom: -10px;
+}
+
+/*.greetings-text{
+	padding-top: 150px;
+	padding-bottom: 150px;
+	padding-left: 200px;
+	padding-right: 200px;
+}*/
+
+/*.header-logo {
+	border-radius: 30px;
+	image-color: green;
+	width: 60px;
+    height: 60px;
+}*/
+
+.profile-image{
+	width : 300px;
+	border-radius: 100%;
+		/*border-top-left-radius: 50%;
+		border-top-right-radius: 50%;
+		border-bottom-right-radius: 50%;
+		border-bottom-left-radius: 50%;*/
+}
+
+.image-border{
+	border-radius: 40px;
+	image-color: green;
+}
+
+.about1{
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.about2{
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.meet{
+	margin-top: 15px;
+	font-size: 18px;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.about-text{
+	margin-top: 20px;
+	font-size: 16px;
+	font-family:'Roboto Mono', monospace;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+
+.row {
+	margin-top: 150px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.title{
+	text-transform: uppercase;
+    font-size: 1.5em;
+    margin: 0;
+    color:#e6005c;
+}
+
+.proj-desc{
+	display: inline;
+	text-align: center;
+}
+
+.project-div{
+	background: #ffffff;
+}
+
+
+
+.descrip{
+	text-align: center;
+	text-transform: uppercase;
+    font-size: 1.5em;
+    margin: 0;
+	color: #e6005c
+}
+
+.descrip1{
+	text-align: center;
+	color: #e6005c
+}
+
+hr.star-dark {
+    border-color: #e6005c;
+}
+hr.star-bright, hr.star-dark {
+    margin: 40px auto 30px;
+    padding: 0;
+    max-width: 512px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-dark:after {
+    color: #e6005c;
+    background-color: #fff;
+}
+
+hr.star-bright:after, hr.star-dark:after {
+    content: '\f121';
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-size: 2em;
+}
+	
+footer{
+	/*background: #F5F5F5;*/
+	text-align: center;
+	padding-top: 48px;
+	padding-bottom: 55px;
+}
+
+/*.footer1{
+	background-color: #ffe6ff
+	margin-bottom: 0;
+}
+*/
+
+.footer1{
+	text-align: center;
+	background-color: #e6005c;
+}
+
+.footer-about{
+	color: #e6005c;
+	text-align: center;
+}
+
+.row1{
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 20px;
+}
+
+
+.button {
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 48px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+
+}
+
+footer a{
+	color:#ffffff;
+}
+
+footer p {
+	font-size: 13px;
+	line-height: 25px;
+	color: #ffffff;
+	text-decoration: none 
+}
+
+
+.social:hover {
+    color: #e6005c;
+    background-color: #ffffff;
+    
+}
+
+.footer-nav:hover {
+	color: #4f4f4f;
+	text-decoration: none !important; 
+}
